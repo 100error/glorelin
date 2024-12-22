@@ -48,7 +48,7 @@ const Products = () => {
   }
 
   return (
-    <div className="w-screen h-full bg-rose-100 p-16 space-y-3 flex flex-col items-center justify-center text-rose-950">
+    <div className="p-16 space-y-3 bg-rose-100 flex flex-col">
      <p className="text-7xl font-[Oswald] font-light tracking-widest text-center mt-10">
         Our Cake Selection
     </p>
