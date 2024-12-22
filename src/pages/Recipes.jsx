@@ -49,7 +49,7 @@ const Products = () => {
 
   return (
     <div className="w-screen h-full bg-rose-100 p-16 space-y-3 bg-rose-100 flex flex-col items-center justify-center">
-     <p className="text-1xl font-[Poppins] font-medium text-rose-950 text-center mt-16 bg-red-50 w-screen h-10 pb-10 pt-3">
+     <p className="text-1xl font-[Poppins] font-medium text-rose-950 text-center">
         Our Cake Selection
     </p>
 
