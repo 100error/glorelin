@@ -49,9 +49,10 @@ const Products = () => {
 
   return (
     <div className="w-screen h-full bg-rose-100 p-16 space-y-3 bg-rose-100">
-      <p className="text-7xl font-[Oswald] font-light tracking-widest text-center mt-10">
+     <p className="text-3xl sm:text-5xl md:text-7xl font-[Oswald] font-light tracking-wide sm:tracking-widest text-center mt-6 sm:mt-10">
         Our Cake Selection
-      </p>
+    </p>
+
 
       <p className="text-2xl font-[Poppins] font-light tracking-widest text-center mt-10">
         "Indulge in our heavenly creations! Order your favorites now."
