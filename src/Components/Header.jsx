@@ -8,19 +8,36 @@ function Header() {
       </a>
         <div className="flex items-center ml-auto space-x-6 pr-6">
           
-                <NavLink to='/' className='text-white text-md font-semi-bold hover:bg-rose-800  hover:rounded-lg p-2 pl-4 pr-4'>Home</NavLink>
+                <div className="flex flex-wrap items-center justify-center w-full md:w-auto space-x-0 md:space-x-6 mt-2 md:mt-0">
+        <NavLink 
+          to="/"
+          className="text-white text-sm md:text-md font-semi-bold hover:bg-rose-700 hover:rounded-lg p-2 pl-4 pr-4">
+          Home
+        </NavLink>
 
-                <NavLink to='/Products' className='text-white text-md font-semi-bold hover:bg-rose-800 hover:border hover:rounded-full p-1 pl-2 pr-2'>Products</NavLink>
+        <NavLink
+          to="/Products"
+          className="text-white text-sm md:text-md font-semi-bold hover:bg-rose-700 hover:rounded-lg p-2 pl-4 pr-4">
+          Products
+        </NavLink>
 
-                <NavLink to='/Recipes' className='text-white text-md font-semi-bold hover:bg-rose-800 hover:border hover:rounded-full p-1 pl-2 pr-2'>Recipes</NavLink>
+        <NavLink
+          to="/Recipes"
+          className="text-white text-sm md:text-md font-semi-bold hover:bg-rose-700 hover:rounded-lg p-2 pl-4 pr-4">
+          Recipes
+        </NavLink>
 
-                <NavLink to='/About' className='text-white text-md font-semi-bold hover:bg-rose-800 hover:border hover:rounded-full p-1 pl-2 pr-2'>About</NavLink>
+        <NavLink
+          to="/About"
+          className="text-white text-sm md:text-md font-semi-bold hover:bg-rose-700 hover:rounded-lg p-2 pl-4 pr-4">
+          About
+        </NavLink>
 
-                <NavLink to='/Longin' className='text-white text-md font-semi-bold hover:bg-rose-800 hover:border hover:rounded-full p-1 pl-2 pr-2'>Log In</NavLink>
-
-                
-
-
+        <NavLink
+          to="/Login"
+          className="text-white text-sm md:text-md font-semi-bold hover:bg-rose-700 hover:rounded-lg p-2 pl-4 pr-4">
+          Log In
+        </NavLink>
                 
         </div>
     </div>
