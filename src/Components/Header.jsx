@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router'
 function Header() {
   return (
-    <div className="bg-rose-800 p-3 w-full fixed top-0 flex items-center font-[Poppins] bg-opacity-90">
+    <div className="bg-rose-800 p-3 w-full fixed top-0 flex flex-wrap items-center font-[Poppins] bg-opacity-90 z-50">
       <a href="" className="flex flex-col items-center">
         <img src="/velvlogo.png" alt="Velvet Logo" className="h-10 w-28 mr-4" />
       </a>
