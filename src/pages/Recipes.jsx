@@ -41,7 +41,7 @@ const Products = () => {
 
    if (loading) {
     return (
-      <div className="h-screen flex items-center justify-center text-4xl text-[#6F4E37]">
+      <div className="h-screen flex items-center justify-center text-4xl text-black">
         Loading...
       </div>
     );
