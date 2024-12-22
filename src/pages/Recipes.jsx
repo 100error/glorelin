@@ -41,14 +41,14 @@ const Products = () => {
 
    if (loading) {
     return (
-      <div className="h-screen flex items-center justify-center text-4xl text-black">
+      <div className="h-screen flex items-center justify-center text-4xl text-black ">
         Loading...
       </div>
     );
   }
 
   return (
-    <div className="p-16 space-y-3 bg-rose-100">
+    <div className="px-4 py-8 bg-rose-100">
       <p className="text-7xl font-[Oswald] font-light tracking-widest text-center mt-10">
         Our Cake Selection
       </p>
